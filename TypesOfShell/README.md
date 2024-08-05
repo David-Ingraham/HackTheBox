@@ -30,7 +30,7 @@ or
 
 ```
 
-	windows shell:
+windows shell:
 
 ``` powershell
 
