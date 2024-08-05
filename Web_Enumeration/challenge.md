@@ -5,6 +5,7 @@ Ping target ip
 ```
 	bash
 ping <target ip>
+```
 
 Ping sucessfull
 
@@ -15,6 +16,7 @@ Find other directories on the backend
 ```
 	bash 
 gobuster dir -u http://83.136.252.57:54764/ -w /usr/share/dirb/wordlists/common.txt
+```
 
 This command calls gobuster with the dir switch and passes the target system with the ip and port number along with a word list that commons preinstalled on kali 
 Below is the output of the command.
@@ -48,6 +50,9 @@ Disallow: /admin-login-page.php
 Visit the http://83.136.252.57:54764/admin-login-page.php
 Inspect the page source to reveal the follwing html
 
+```
+	html
+
 <div class="container">
                 <label for="username"><b>Username</b></label>
                 <input name="username" placeholder="Username" type="text">
@@ -59,6 +64,7 @@ Inspect the page source to reveal the follwing html
 
                 <button type="submit" formmethod="post">Login</button>
             </div>
+```
 
 
 
