@@ -19,7 +19,7 @@ gobuster dir -u http://83.136.252.57:54764/ -w /usr/share/dirb/wordlists/common.
 This command calls gobuster with the dir switch and passes the target system with the ip and port number along with a word list that commons preinstalled on kali 
 Below is the output of the command.
 
-Starting gobuster in directory enumeration mode
+Starting Gobuster in directory enumeration mode
 ===============================================================
 /.hta                 (Status: 403) [Size: 281]
 /.htpasswd            (Status: 403) [Size: 281]
