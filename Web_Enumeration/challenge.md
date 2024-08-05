@@ -2,8 +2,7 @@
 
 
 Ping target ip
-```
-	bash
+```bash
 ping <target ip>
 ```
 
@@ -13,8 +12,7 @@ Ping sucessfull
 
 Find other directories on the backend
 
-```
-	bash 
+```bash 
 gobuster dir -u http://83.136.252.57:54764/ -w /usr/share/dirb/wordlists/common.txt
 ```
 
@@ -50,8 +48,7 @@ Disallow: /admin-login-page.php
 Visit the http://83.136.252.57:54764/admin-login-page.php
 Inspect the page source to reveal the follwing html
 
-```
-	html
+```html
 
 <div class="container">
                 <label for="username"><b>Username</b></label>
